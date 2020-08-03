@@ -104,6 +104,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .hero h3 {
   padding: 5rem;
@@ -170,6 +171,9 @@ nav ul {
 }
 
 /* Benefits section */
+#benefits {
+  position: relative;
+}
 .benefits-header {
   background: #343c44;
   padding: 3rem;
@@ -227,6 +231,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .form-wrapper {
@@ -289,6 +294,18 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* animation */
+.reveal-img {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  background: #131c27;
+  left: 0;
+  top: 0;
+  z-index: 15;
+  overflow: hidden;
 }
 
 /* media queries */
