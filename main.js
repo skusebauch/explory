@@ -18,7 +18,7 @@ function animateSlides() {
     // Create Scene Scroll Animation
     slideScene = new ScrollMagic.Scene({
       triggerElement: slide,
-      triggerHook: 0.9,
+      triggerHook: 0.8,
     })
       //.addIndicators({
       //  colorStart: "black",
