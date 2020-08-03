@@ -6,6 +6,7 @@ function animateSlides() {
   controller = new ScrollMagic.Controller();
   // select some things
   const sliders = document.querySelectorAll(".slide");
+  const nav = document.querySelector("nav");
   sliders.forEach((slide, index, slides) => {
     const revealImg = slide.querySelector(".reveal-img");
     //gsap - slideTl
@@ -17,7 +18,7 @@ function animateSlides() {
     // Create Scene Scroll Animation
     slideScene = new ScrollMagic.Scene({
       triggerElement: slide,
-      triggerHook: 0.8,
+      triggerHook: 0.9,
     })
       //.addIndicators({
       //  colorStart: "black",
